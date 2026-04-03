@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DrumFire — Virtual drum kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="page page--app" id="top">
+  <nav class="site-nav" aria-label="Main">
+    <a href="#top" class="site-nav__brandlink">
+      <img class="site-nav__icon" src="https://media.giphy.com/media/LmOIDjLHwBZ5DPezy1/giphy.gif" alt="" width="40" height="40" decoding="async">
+      <span class="site-nav__brand">DrumFire</span>
+    </a>
+    <div class="site-nav__links">
+      <a href="#top" class="site-nav__link">Home</a>
+      <a href="#drum-kit" class="site-nav__link">Play</a>
+    </div>
+  </nav>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__inner">
+      <h1 id="hero-title" class="hero__title">Jam Drums with Just Your Fingers</h1>
+      <p class="hero__sub">
+        Play drums in your browser — tap the pads or use your keyboard. Keys spell <em>musical</em>.
+      </p>
+
+      <p class="hero__kbd-hint">
+        Press <kbd>m</kbd><kbd>u</kbd><kbd>s</kbd><kbd>i</kbd><kbd>c</kbd><kbd>a</kbd><kbd>l</kbd> on your keyboard
+      </p>
+
+      <div class="hero__cta">
+        <a href="#drum-kit" class="btn-cta">Play for free</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="drum-kit" class="drum-section" aria-label="Drum kit">
+    <div class="drum-section__inner">
+      <header class="drum-section__brand">
+        <h2 class="drum-section__wordmark">DrumFire</h2>
+        <p class="drum-section__tagline">Your kit is here — click or type the letters.</p>
+      </header>
+      <div class="set">
+        <button class="m drum" type="button">m</button>
+        <button class="u drum" type="button">u</button>
+        <button class="s drum" type="button">s</button>
+        <button class="i drum" type="button">i</button>
+        <button class="c drum" type="button">c</button>
+        <button class="a drum" type="button">a</button>
+        <button class="l drum" type="button">l</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">
+      © Built by Yashfeen Zari — in love of music
+    </p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
