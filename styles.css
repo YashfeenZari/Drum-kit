@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #060606;
+  /* background-image: url('https://media.istockphoto.com/photos/concert-stage-on-rock-festival-music-instruments-silhouettes-picture-id1199243596?b=1&k=20&m=1199243596&s=170667a&w=0&h=HWWX1z9RWCsuhSGD6_3O2rrk-n-OXordqT_qb7MXwrA='); */
+  /* background-image: url('https://images.pexels.com/photos/1327430/pexels-photo-1327430.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+  /* background-image: url('https://www.hdwallpapers.in/download/black_acoustic_guitar_in_black_background_hd_black_background-HD.jpg'); */
+  background-image: url('https://cdn.wallpapersafari.com/68/40/ONVhTs.jpg');
+  background-image: url('https://c0.wallpaperflare.com/preview/691/452/28/united-states-billings-faith-chapel-concert.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.gif{
+  position: absolute;
+  left: 400px;
+  width: 150px;
+ 
+}
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 1px 5px #e3e1e1;
+  display: inline-block;
+
+}
+
+footer {
+  color: #eeeded;
+  font-family: sans-serif;
+}
+
+.m {
+  background-image: url('images/crash.png');
+}
+
+.u {
+  background-image: url('images/kick.png');
+}
+
+.s {
+  background-image: url('images/snare.png');
+}
+
+.i {
+  background-image: url('images/tom1.png');
+}
+
+.c {
+  background-image: url('images/tom2.png');
+}
+
+.a {
+  background-image: url('images/tom3.png');
+}
+
+.l {
+  background-image: url('images/tom4.png');
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  /* border: 10px solid #404B69; */
+  border: 10px solid #262626;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  /* color: #DA0463; */
+  color: #000000c3;
+  text-shadow: 3px 0 #b3b4b5;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
